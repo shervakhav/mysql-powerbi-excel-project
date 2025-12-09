@@ -29,7 +29,7 @@ End-to-end workflow: SQL → Excel → Power BI
 🖥️ Dashboard Preview
 
 <p align="center">
-  <img src="screenshots/ecommerce_sales_overview.png" width="900">
+  <img src="ecommerce_sales_overview.png" width="900">
 </p>
 
 📂 Project Files
