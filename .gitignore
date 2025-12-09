@@ -1,0 +1,45 @@
+# Database
+*.sql.bak
+*.sql~
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
+
+# Power BI
+*.pbix
+*.pbit
+
+# Data files
+*.csv
+*.tsv
+*.json
+
+# Logs
+*.log
+*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+
+
