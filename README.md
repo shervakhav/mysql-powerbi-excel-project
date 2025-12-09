@@ -20,7 +20,7 @@ Goal: Understand customer behavior, improve retention, and identify revenue oppo
   <img src="ecommerce_sales_overview.png" width="900">
 </p>
 
-📂 Project Files
+## 📂 Project Files
 
 /database
     01_schema.sql
@@ -60,6 +60,7 @@ Excel Guide → Excel_Workbook_Guide.md
 Setup Steps → SETUP_GUIDE.md
 
 <br>
+
 ## 🔍 Key Insights (Brief)
 
 High-value customers generate 60%+ of total revenue
@@ -75,7 +76,9 @@ Several products show low sales velocity → optimization opportunities
 Full insights here: Business_Insights_and_Recommendations.md
 
 <br>
+
 ## 🚦 How to Run the Project
+
 1️⃣ Load Database
 mysql -u root -p < database/01_schema.sql
 mysql -u root -p < database/02_sample_data.sql
@@ -93,6 +96,7 @@ Follow: excel/Excel_Workbook_Guide.md
 Follow: powerbi/Power_BI_Dashboard_Guide.md
 
 <br>
+
 ## 🎓 Skills Demonstrated
 
 Database design & normalization
@@ -108,6 +112,7 @@ Power BI visualization & DAX
 Business intelligence & storytelling
 
 <br>
+
 ## 📄 Documentation
 
 Project Summary — PROJECT_SUMMARY.md
@@ -117,6 +122,7 @@ Business Insights — Business_Insights_and_Recommendations.md
 Setup Guide — SETUP_GUIDE.md
 
 <br>
+
 ## 📝 License
 
 MIT License
