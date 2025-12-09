@@ -1,32 +1,20 @@
 # mysql-powerbi-excel-project
 
-A complete end-to-end data analytics project analyzing e-commerce sales performance, customer segmentation, product trends, and geographic patterns using MySQL, Excel, and Power BI.
+## 📊 Overview
 
-👉 Goal: Identify revenue opportunities and improve customer retention through data-driven insights.
+This project is an end-to-end data analytics workflow for an e-commerce business. It demonstrates how raw data is transformed into insights using:
 
-🛠️ Tech Stack
+MySQL for database design, cleaning, transformation, and analysis
 
-MySQL – database design, data cleaning, transformation, analysis
+Excel for KPI analysis, pivot tables, and cohort metrics
 
-Excel – pivot tables, KPIs, cohort analysis
+Power BI for interactive dashboards
 
-Power BI – interactive dashboards with DAX
+SQL for customer segmentation, revenue trends, product performance, and geographic insights
 
-SQL – window functions, views, aggregations
+Goal: Understand customer behavior, improve retention, and identify revenue opportunities.
 
-📊 Key Features
-
-Customer segmentation (value, engagement, frequency)
-
-Revenue & product performance analysis
-
-Geographic sales insights
-
-Cohort retention analysis
-
-End-to-end workflow: SQL → Excel → Power BI
-
-🖥️ Dashboard Preview
+## 🖥️ Dashboard Preview
 
 <p align="center">
   <img src="ecommerce_sales_overview.png" width="900">
@@ -34,15 +22,28 @@ End-to-end workflow: SQL → Excel → Power BI
 
 📂 Project Files
 
-Database schema & sample data
+/database
+    01_schema.sql
+    02_sample_data.sql
 
-SQL cleaning, transformation, and business analysis
+/sql_queries
+    01_data_cleaning.sql
+    02_data_transformation.sql
+    03_business_analysis.sql
 
-Excel and Power BI guides
+/excel
+    Excel_Workbook_Guide.md
+
+/powerbi
+    Power_BI_Dashboard_Guide.md
+
+Business_Insights_and_Recommendations.md
+PROJECT_SUMMARY.md
+SETUP_GUIDE.md
 
 Business insights & recommendations
 
-📖 Detailed Documentation
+## 📖 Detailed Documentation
 
 To keep this README clean, full documentation is available in separate files:
 
@@ -58,28 +59,64 @@ Excel Guide → Excel_Workbook_Guide.md
 
 Setup Steps → SETUP_GUIDE.md
 
-🎯 Skills Demonstrated
+<br>
+## 🔍 Key Insights (Brief)
+
+High-value customers generate 60%+ of total revenue
+
+Electronics is the strongest-performing product category
+
+Major metro areas (CA, TX) produce the highest revenue
+
+Retention varies significantly by customer cohort
+
+Several products show low sales velocity → optimization opportunities
+
+Full insights here: Business_Insights_and_Recommendations.md
+
+<br>
+## 🚦 How to Run the Project
+1️⃣ Load Database
+mysql -u root -p < database/01_schema.sql
+mysql -u root -p < database/02_sample_data.sql
+
+2️⃣ Run SQL Analysis
+
+Execute files in /sql_queries in this order.
+
+3️⃣ Excel Analysis
+
+Follow: excel/Excel_Workbook_Guide.md
+
+4️⃣ Power BI Dashboard
+
+Follow: powerbi/Power_BI_Dashboard_Guide.md
+
+<br>
+## 🎓 Skills Demonstrated
 
 Database design & normalization
 
-SQL analytics using window functions & views
+SQL analytics (CTEs, window functions, aggregations, views)
 
-Data quality validation
+Data cleaning & validation
 
-Power BI dashboard building
+Pivot tables, dashboards, KPI modeling
 
-Business intelligence storytelling
+Power BI visualization & DAX
 
-📈 Results (Brief)
+Business intelligence & storytelling
 
-High-value customers = ~60% of revenue
+<br>
+## 📄 Documentation
 
-Electronics category leads performance
+Project Summary — PROJECT_SUMMARY.md
 
-California & Texas are strongest states
+Business Insights — Business_Insights_and_Recommendations.md
 
-Cohort retention declines without targeted re-engagement
+Setup Guide — SETUP_GUIDE.md
 
-📄 License
+<br>
+## 📝 License
 
 MIT License
