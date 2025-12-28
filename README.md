@@ -14,7 +14,7 @@ SQL for customer segmentation, revenue trends, product performance, and geograph
 
 Goal: Understand customer behavior, improve retention, and identify revenue opportunities.
 
-## 🖥️ Dashboard Preview
+## Dashboard Preview
 
 <p align="center">
   <img src="ecommerce_sales_overview.png" width="900">
