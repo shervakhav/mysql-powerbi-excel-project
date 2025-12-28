@@ -1,6 +1,6 @@
 # mysql-powerbi-excel-project
 
-## 📊 Overview
+## Overview
 
 This project is an end-to-end data analytics workflow for an e-commerce business. It demonstrates how raw data is transformed into insights using:
 
@@ -20,7 +20,7 @@ Goal: Understand customer behavior, improve retention, and identify revenue oppo
   <img src="ecommerce_sales_overview.png" width="900">
 </p>
 
-## 📂 Project Files
+## Project Files
 
 /database
     01_schema.sql
@@ -43,7 +43,7 @@ SETUP_GUIDE.md
 
 Business insights & recommendations
 
-## 📖 Detailed Documentation
+## Detailed Documentation
 
 To keep this README clean, full documentation is available in separate files:
 
@@ -61,7 +61,7 @@ Setup Steps → SETUP_GUIDE.md
 
 <br>
 
-## 🔍 Key Insights (Brief)
+## Key Insights (Brief)
 
 High-value customers generate 60%+ of total revenue
 
@@ -77,27 +77,27 @@ Full insights here: Business_Insights_and_Recommendations.md
 
 <br>
 
-## 🚦 How to Run the Project
+## How to Run the Project
 
-1️⃣ Load Database
+1) Load Database
 mysql -u root -p < database/01_schema.sql
 mysql -u root -p < database/02_sample_data.sql
 
-2️⃣ Run SQL Analysis
+2) Run SQL Analysis
 
 Execute files in /sql_queries in this order.
 
-3️⃣ Excel Analysis
+3️) Excel Analysis
 
 Follow: excel/Excel_Workbook_Guide.md
 
-4️⃣ Power BI Dashboard
+4️) Power BI Dashboard
 
 Follow: powerbi/Power_BI_Dashboard_Guide.md
 
 <br>
 
-## 🎓 Skills Demonstrated
+## Skills Demonstrated
 
 Database design & normalization
 
@@ -113,7 +113,7 @@ Business intelligence & storytelling
 
 <br>
 
-## 📄 Documentation
+## Documentation
 
 Project Summary — PROJECT_SUMMARY.md
 
@@ -123,6 +123,6 @@ Setup Guide — SETUP_GUIDE.md
 
 <br>
 
-## 📝 License
+## License
 
 MIT License
